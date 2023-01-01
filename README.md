@@ -15,13 +15,13 @@ The Duinotech 3-Axis Compass Magnetometer Module (Part Number: XC-4496) can be p
 
 There are two versions of this board which use different chips.
 
-##The QMC5883L Sensor
+## The QMC5883L Sensor
 The QMC5883L is a multi-chip three-axis magnetic sensor. It is based on technology licensed from Honeywell AMR (Anisotropic Magnetoresistive) technology.
 
-##The MMC5883MA Sensor
+## The MMC5883MA Sensor
 The MMC5883MA is a 3-axis magnetic sensor with on-chip signal processing and integrated I2C bus.
 
-##I2C Address
+## I2C Address
 Since you can have multiple devices connected via I2C, all devices have a unique address. The Honeywell HMC5883L uses the following I2C address:
 
 - 7-bit Address: 0x1E (A 7-bit I2C address includes the 7-bit slave address in the first 7 bits of the byte. The eighth bit (the bit in the Least Significant Bit — LSB — position) is the read/write flag. A 0 in the eighth bit indicates a write and a 1 in the eighth bit signifies a read — Figure 3).
